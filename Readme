@@ -1,0 +1,20 @@
+Team NM
+Project Name - Golden Agers
+Problem Statement - Web app for elderly people
+Project description:
+Golden Agers is a web app designed to help elderly people using internet, our website helps the elderly people to connect with other elderly peoples nearby and also
+call for volunteers can be made incase of any help needed, Our website features an SOS button that in case of any medical emergency connects the person to the 
+Nearest health department.
+Our website also shows the health reports of the person as health is the major concern for the elders at that age
+Using our website volunteers can also signup for the events that will be conducted for the elderly people by the elderly people and community work for the same.
+Our websites main features are - 
+  
+  1 Large icon (Increase readability)
+  2 Eye pleasing interface
+  3 News section (Google News API)
+  4 One stop solution for golden age needs
+
+Prototype 1:
+As of now we have created two pages Mainly one for the elders and one for the volunteers,
+  and Login page is also built but database has not been incorporated to it so anyone can login with any id or password
+Only features and buttons can be seen as of now due to lack of database and news can be seen
