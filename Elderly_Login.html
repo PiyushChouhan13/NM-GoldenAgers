@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Elderly Health Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="Elderly_login.css">
+</head>
+<body>
+    
+    <button id="sos-button">SOS</button>
+     
+    <header>
+        <h1 class="Title">Golden Agers</h1>
+        <nav>
+            <a id="home-link" class="scroll-link">Home</a>
+            <a href="#Assistance" class="scroll-link">Assitance</a>
+            <a href="#news-section" class="scroll-link">News</a>
+            <a href="#" class="scroll-link">Logout</a>
+
+        </nav>
+    </header>
+    
+    <div class="top">
+    
+        <div class="container">
+
+    
+            <div class="user-image">
+                <img src="Images/PP.png" alt="this image contains user-image">
+            </div>
+            <div class="content">
+                <h3 class="name">Piyush Chouhan</h3>
+            </div>
+            <p class="details">
+                Age : 64<br>
+                Gender : Gay<br>
+                Medical History : Diabetes<br>
+
+            </p>
+        </div>
+    
+        <div id="health-reports">
+            <h2 style="text-align: Center ;" >Your Health Reports</h2>
+            <div class="chart-row">
+                <div class="small-chart-container">
+                    <canvas id="sugar-chart"></canvas>
+                    <p>Glucose</p>
+                </div>
+                <div class="small-chart-container">
+                    <canvas id="cholesterol-chart"></canvas>
+                    <p>Cholesterol</p>
+                </div>
+                <div class="small-chart-container">
+                    <canvas id="blood-pressure-chart"></canvas>
+                    <p>Blood Pressure</p>
+                </div>
+                <div class="small-chart-container">
+                    <canvas id="uric-acid-chart"></canvas>
+                    <p>Uric Acid</p>
+                </div>
+            </div>
+        </div>
+      <br>
+      
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <p id="Assistance"></p>
+    <p id="two-assist"> How may we help you? </p>
+    <div class="second-section" >
+        <div class="icon-box">
+            <a href="https://www.maxhealthcare.in/?utm_source=D-Paid&utm_campaign=edm_search_brand_appointment_geo_exact&gad_source=1&gclid=CjwKCAjw15eqBhBZEiwAbDomErAk_gkXbTkz-2DltkS2Qj4rkRdPGglpLyAHKU9bj_yKojLJslormhoC120QAvD_BwE" target="_blank">
+                <img  class="icon" src="Images/doc.png">
+                <p class="text-below-image">Doctor</p>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="https://www.1mg.com/offers?utm_source=google&utm_medium=cpc&utm_campaign={1MG_Search_Brand_Pharma_TROAS_Exact_New}&utm_adgroup={adgroup}&utm_keyword=tataonemg&wpsrc=Google%20AdWords&wpcid=20661318689&wpsnetn=g&wpkwn=tataonemg&wpkmatch=e&wpcrid=677213640611&wpscid=161444151344&wpkwid=kwd-1638773485080&gad_source=1&gclid=CjwKCAjw15eqBhBZEiwAbDomEm_gUf20b7bHvoluRPPEFEQhWnng55axafOvoXIO27YEErBCQxQwjRoCP7wQAvD_BwE" target="_blank">
+                <img style="width:35em; height:25em;" class="icon" src="Images/medicine.png">
+                <p class="text-below-image">Medicine</p>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="https://www.bigbasket.com/?utm_source=google&utm_medium=cpc&utm_campaign=Brand-T2&gad_source=1&gclid=CjwKCAjw15eqBhBZEiwAbDomEtVlrhzb1lCddHR4uLb9htGlJJQ-9n8xbTGXHIlWQr4K_EnDB7RKwhoCxTwQAvD_BwE" target="_blank">
+                <img style="width:30em; height:25em;" class="icon" src="Images/grocery.png">
+                <p class="text-below-image">Grocery</p>
+            </a>
+        </div>
+        <div class="icon" >
+            <a href="https://www.facebook.com/" target="_blank">
+                <img style="width:28em;" class="icon" src="Images/buddy.png">
+                <p class="text-below-image">Find People</p>
+            </a>
+        </div>
+    </div>
+    <div class="news-section" id="news-section">
+        <p id="two-assist" style="filter: drop-shadow(10px 0 10px white)"> News for You!</p>
+        <iframe src="News.html" class="newsframe">
+        
+        </iframe>
+    </div>
+    <script src="Elderly_login.js"></script>
+   
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 234, 232);
+    
+}
+
+header {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.Title{
+    margin-left: 100px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+nav a:hover {
+    background-color: #007567;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 0px;
+    background-image: url("Images/bg_main.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.info-table {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-collapse: collapse; 
+    margin:  auto;
+    height: 200px;
+    
+}
+
+.info-table tr, .info-table td {
+    border: 5px solid #000; /* Add a border to each cell */
+    padding: 10px; /* Add padding to cells for spacing */
+}
+
+.info-table td:first-child {
+    text-align: center; /* Right-align the text in the first column */
+}
+
+#health-reports {
+    color: white;
+    flex: 1;
+    margin-left: 20px;
+}
+
+#health-chart-container {
+    width: 100%; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.chart-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+}
+
+.profile-box img {
+    max-width: 100%;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+
+.welcome-title {
+    font-size: 100px; /* Adjust the font size as needed */
+}
+
+.small-chart-container {
+    flex: 0 0 calc(40% - 20px); /* Display 2 charts in one row with spacing */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: white; /* Set a white background color */
+    
+    
+    
+}
+.container {
+    width: 30em;
+    background-color: rgb(227, 229, 229);
+    overflow: hidden;
+    border-radius: 1em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    margin: 2%;
+    align-items: center;
+    height: 800px;
+}
+
+.user-image {
+    padding: 3em 0;
+    background-image: linear-gradient(70deg, #61A1DD, #0083FD);
+    height: 100px;
+}
+
+.user-image img {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    box-shadow: 0 0.6em 1.8em;
+    object-fit: cover;
+}
+
+.content {
+    margin-top: 130px;
+    color: #565656;
+    padding: 2.2em;
+}
+
+.name {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.username {
+    font-size: 1em;
+    color: #9e9e9e;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+
+.details {
+   
+    margin-bottom: 1.8em;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+
+    text-decoration: none;
+    color: black ;
+    font-weight: bolder;
+}
+.second-container{
+    background-image: url("Images/help-bg.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+.second-section{
+    
+    display: flex;
+    margin-left: -60px;
+    margin-right: 0px;
+    height: 800px;
+    
+}
+#two-assist{
+    font-size:100px;
+    text-align: center;
+    font-weight: bold;
+}
+.icon{
+    height:30em;      
+}
+
+
+.text-below-image {
+    margin-top: 5px; 
+    font-size: 40px; 
+    text-align: center;
+}
+
+.icon:hover{
+    filter: drop-shadow(0 0 10px #100905);
+    transition: 0.2s;
+}
+
+#sos-button {
+    position: fixed;
+    bottom: 25px; /* Adjust the distance from the bottom as needed */
+    right: 25px; /* Adjust the distance from the right as needed */
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9999; /* Ensure it's above all other elements */
+    font-size: 25px;
+    color: white;
+}
+
+#sos-button:hover{
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(0 0 10px #100000);
+    transition: 0.2s;
+    font-size: 50px;
+}
+
+.news-section {
+    background-image: url("Images/news-sectionmain-bg.JPEG");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the container takes the full viewport height */
+}
+
+
+
+.newsframe {
+    border: #100000;
+    width: 95%; /* Adjust the width as needed */
+    height: 80vh; /* Adjust the height as needed */
+    
+}

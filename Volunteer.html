@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Elderly Health Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="Volunteer.css">
+</head>
+
+<body>
+
+   
+
+    <header>
+        <h1 class="Title">Golden Agers</h1>
+        <nav>
+            <a id="home-link" class="scroll-link">Home</a>
+            <a href="#two-assist" class="scroll-link">Apply</a>
+            <a href="#" class="scroll-link">Logout</a>
+        </nav>
+    </header>
+
+    <div class="top">
+
+        <div class="container">
+            <div class="user-image">
+                <img src="Images/VPP.png" alt="this image contains user-image">
+            </div>
+            <div class="content">
+                <h3 class="name">Rishi Gaur</h3>
+            </div>
+            <p class="details">
+                Age: 20 years<br>
+                Email-id - rishigaur800@gmail.com<br>
+                Gender - Male
+            </p>
+            <div class="circle">
+                <img src="https://www.pngfind.com/pngs/m/594-5945863_a-bronze-circle-hd-png-download.png">
+            </div>
+            <p class="badge-text">Volunteer 5 more times to unlock a silver badge</p>
+        </div>
+
+        <div id="assignments">
+            <h2>Your Assignments</h2>
+            <div class="assignment-table">
+                <h3>Previous Assignments</h3>
+                <div class="scrollable-table">
+                    <table>
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Status</th>
+                        </tr>
+                       
+                        <tr>
+                            <td>Assignment 1</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Assignment 2</td>
+                            <td>Completed</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+            <div class="assignment-table">
+                <h3>Upcoming Assignments</h3>
+                <div class="scrollable-table">
+                    <table>
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Due Date</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>Assignment 3</td>
+                            <td>November 15, 2023</td>
+                        </tr>
+                        <tr>
+                            <td>Assignment 4</td>
+                            <td>December 3, 2023</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="v.js"></script>
+
+    <p id="two-assist">What we do</p>
+    <div class="second-section">
+        <div class="left-section">
+            <div class="image-slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="Images/Slide1.jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/slide3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/Slide2.jpeg">
+                    </div>
+                    
+                </div>
+                <div class="slider-nav">
+                    <button class="prev" onclick="changeSlide(-1)">&#9664;</button>
+                    <button class="next" onclick="changeSlide(1)">&#9654;</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right-section">
+            <h2>Availability</h2>
+            <form>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="time">Time:</label>
+                <select id="time" name="time">
+                    <option value="9:00 AM">9:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="1:00 PM">1:00 PM</option>
+                    
+                </select><br><br>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="Volunteer.js"></script>
+</body>
+
+</html>

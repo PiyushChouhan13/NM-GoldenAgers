@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Images/bg_main.jpeg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.Title{
+    margin-left: 100px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+nav a:hover {
+    background-color: #007567;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.form-box {
+    background-color: rgb(245, 234, 232);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 850px;
+    width: 400px;
+   
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"]
+ 
+{
+    font-size: 30px; 
+}
+button[type="submit"] {
+    padding: 16px 32px;
+}
+input[type="file"] {
+    font-size: 20px; 
+}
+
+#password {
+    width: 102%;
+   height: 42px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    font-size: 17px; 
+}

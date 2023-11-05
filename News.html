@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="News.css">
+</head>
+<body>
+    <div class="icons">
+        <div class="icon">
+        <a href="#" class="World" onclick="onNavItemClick('Global')"><img src="Images/earth.png" class="icon">
+            <p class="text-below-image">Global </p></a></div>
+        <div class="icon">
+        <a href="#" class="Buisness" onclick="onNavItemClick('Buisness')"><img src="Images/buisness.png" class="icon">
+            <p class="text-below-image">Buisness </p></a></div>
+        <div class="icon">
+        <a href="#" class="Politics" onclick="onNavItemClick('Politics')"><img src="Images/politics.png" class="icon">
+            <p class="text-below-image">Politics </p></a></div>
+        <div class="icon">
+        <a href="#" class="Automobile" onclick="onNavItemClick('Automobile')"><img src="Images/car.png" class="icon">
+            <p class="text-below-image">Automobile </p></a></div>
+        <div class="icon">
+        <a href="#" class="Finance" onclick="onNavItemClick('Finance')"><img src="Images/finance.png" class="icon">
+            <p class="text-below-image">Finance </p></a></div>
+        <div class="icon">
+        <a href="#" class="Religon" onclick="onNavItemClick('Religion')"><img src="Images/religion.png" class="icon">
+            <p class="text-below-image">Religion </p></a></div>
+    </div>
+            <div class="cards-container container flex" id="cards-container"></div>
+        
+    
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+    
+    <script src="News.js"></script>
+</body>
+</html>

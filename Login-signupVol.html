@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="Login-signup.css">
+
+   
+
+</head>
+
+
+    
+
+
+<body>
+    <header>
+        <h1 class="Title">Golden Agers</h1>
+        <nav>
+            
+        </nav>
+    </header>
+    <div class="overlay">
+        <div class="container">
+            <div class="form-box">
+                <div class="form">
+                    <h2>Welcome</h2>
+                    <h2 style="line-height: 23px;margin-top: 0;"><span style="font-size: 20pt;"></span>
+                    <div id="loginForm">
+                        <h3>Login</h3>
+                        <form action="Volunteer.html">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" required> <br>
+                            
+
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required="">
+                            <br>
+
+                            <button type="submit" >Login</button>
+                        </form>
+                        Not registered yet? <a href="#" class="toggle-anchor">Sign Up</a>
+                    </div>
+
+                    <div id="signupForm" style="display:none;">
+                        <h3>Sign Up</h3>
+                        <form action="#">
+                            <label for="newUsername">Username:</label>
+                            <input type="text" id="newUsername" name="newUsername" required><br>
+
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br>
+
+                            <label for="age">Age:</label>
+                            <input type="number" id="age" name="age" required><br>
+
+                            <label for="phoneNumber">Phone Number:</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required><br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br>
+
+                            <label for="profilePhoto">Profile Photo:</label>
+                            <input type="file" id="profilePhoto" name="profilePhoto" accept="image/*"><br>
+
+                            <button type="submit">Sign Up</button>
+                        </form>
+                        <p>Already registered? <a href="#" class="toggle-anchor">Login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Login-signup.js"></script>
+    <button id="sos-button">SOS</button>
+</body>
+</html>
